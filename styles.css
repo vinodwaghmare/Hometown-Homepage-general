@@ -40,6 +40,11 @@ h2 {
 
 #activities {
     background: #F1FAEE;
+    height: 500px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
 
 
 }
@@ -56,5 +61,44 @@ h2 {
     border-radius: 100px;
 }
 
+#guide {
+    display: flex;
+    width: 450px;
+    height: 270px;
+    justify-content: center;
+    margin: 60px auto 50px auto;
+    text-align: center;
+    background: #A8DADC;
+    padding : 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid #1D3557;
+}
 
+#guide_img {
+    border-radius:50px;
+    margin: 5px 11px 5px 8px;
+    background-size: cover;
+}
 
+#guide_title {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 24px;
+    color:#1D3557;
+
+}
+
+#guide_profile {
+    font-style: italic;
+    font-weight: 400px;
+    font-size: 16px;
+    color:#1D3557;
+}
+
+#name {
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 16px;
+    color:#1D3557; 
+}
